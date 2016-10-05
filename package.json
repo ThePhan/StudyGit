@@ -1,0 +1,25 @@
+{
+  "name": "stydygit",
+  "version": "1.0.0",
+  "description": "material digner",
+  "main": "home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePhan/StudyGit.git"
+  },
+  "keywords": [
+    "material"
+  ],
+  "author": "Chris_Phan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePhan/StudyGit/issues"
+  },
+  "homepage": "https://github.com/ThePhan/StudyGit#readme",
+  "dependencies": {
+    "material-design-lite": "^1.2.1"
+  }
+}
