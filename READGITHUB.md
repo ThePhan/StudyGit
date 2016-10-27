@@ -81,7 +81,11 @@
     + command: git stash apply
   - Delete one stash
     + command: git stash prop stash@{1}
+<<<<<<< HEAD
   - Delete all stash
+=======
+  -Delete all stash
+>>>>>>> 21845d067781a8d282c4ea788572067589384fda
     + command: git stash clear
 ## Rebase and merge
   - Link reference: https://github.com/AsianTechInc/AST-ruby-code-review/issues/9
