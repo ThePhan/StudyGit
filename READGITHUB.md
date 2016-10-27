@@ -64,11 +64,11 @@
   * Add file into gitignore after remove:
     + command: echo "<file name>" >> .gitignore
 
-## Change brancH name:
+## Change branch name
   - Link reference: ...
     + command: git branch -m <new branch name>
 
-## git stash:
+## git stash
   - Link reference:
     + command: git stash
   - Show list stash:
@@ -83,5 +83,8 @@
     + command: git stash prop stash@{1}
   - Delete all stash
     + command: git stash clear
-## Rebase and merge:
+## Rebase and merge
+  - Delete all stash
+    + command: git stash clear
+## Rebase and merge
   - Link reference: https://github.com/AsianTechInc/AST-ruby-code-review/issues/9
