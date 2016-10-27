@@ -45,7 +45,7 @@
     + command: git revert HEAD~1..HEAD
 =======
 # GIT COMMIT
-   - Link reference: ...
+   - Link reference: 
 ## already edited code but not add
       - command
           + git clean -df
