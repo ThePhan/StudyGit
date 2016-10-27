@@ -66,4 +66,22 @@
 
 ## Change branc name:
   - Link reference: ...
-    + command: git branch -m <old branch name> <new branch name>
+    + command: git branch -m <new branch name>
+
+## git stash:
+  - Link reference:
+    + command: git stash
+  - Show list stash:
+    + command: git stash list
+      * Example: stash@{0}: WIP on master: 051caab Delete file try.js
+      *     stash@{1}: ...
+  - Apply one stash. Ex: stash@{0}.
+    + command: git stash apply stash@{0}
+  - Apply all stash
+    + command: git stash apply
+  - Delete one stash
+    + command: git stash prop stash@{1}
+  -Delete all stash
+    + command: git stash clear
+## Rebase and merge
+  - Link reference: https://github.com/AsianTechInc/AST-ruby-code-review/issues/9
