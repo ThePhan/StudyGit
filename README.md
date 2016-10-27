@@ -67,19 +67,19 @@
       * --soft: Delete commit, and still save already changed but not commit for times commit continue
 
 ## --amend command: edit commit massage
-  - Link reference: ...
+  - Link reference
     + command: git commit --amend -m"content need change"
   - If want add file but don't want edit commit:
     + command: git commit --amend --no-edit
 
 ## Delete file have commit into Repo
-  - Link reference: ...
+  - Link reference
     + command: git rm --cached <file name>
   * Add file into gitignore after remove:
     + command: echo "<file name>" >> .gitignore
 
 ## Change branch name
-  - Link reference: ...
+  - Link reference
     + command: git branch -m <new branch name>
 
 ## git stash
@@ -88,7 +88,7 @@
   - Show list stash:
     + command: git stash list
       * Example: stash@{0}: WIP on master: 051caab Delete file try.js
-      *     stash@{1}: ...
+      *     stash@{1}: 
   - Apply one stash. Ex: stash@{0}.
     + command: git stash apply stash@{0}
   - Apply all stash
