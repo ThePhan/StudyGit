@@ -29,19 +29,19 @@
   - Link reference:
     + command: git merged --quash (or git merged --squash --edit)
 
-## GIT COMMIT
-   - Link reference: ...
-* already edited code but not add
-    - command
-      + git clean -df
-      + git checkout -- .
-* already add but not commit
-    - command
-      + git reset HEAD
-      + git clean -df
-* already commit but not push
+# GIT COMMIT
+  - Link reference: ...
+## already edited code but not add
+  - command
+    + git clean -df
+    + git checkout -- .
+## already add but not commit
+  - command
+    + git reset HEAD
+    + git clean -df
+## already commit but not push
     + command: git reset HEAD~1 --hard
-* already push
+## already push
     + command: git revert HEAD~1..HEAD
 
 ## Reset commit: delete all commit fail
