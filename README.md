@@ -120,7 +120,7 @@ You can read more about that in the git reset documentation.
  # Fix a Git detached head: 
  * Link reference: https://stackoverflow.com/questions/10228760/fix-a-git-detached-head
  
-*If you want to delete your changes associated with the detached HEAD
+**If you want to delete your changes associated with the detached HEAD
 
 - You only need to checkout the branch you were on, e.g.
 
@@ -130,9 +130,9 @@ You can read more about that in the git reset documentation.
 + git checkout -- path/to/foo
 - This will restore the file foo to the state it is in the index.
 
-*If you want to keep your changes associated with the detached HEAD
+**If you want to keep your changes associated with the detached HEAD
 
 1. Run git log -n 1; this will display the most recent commit on the detached HEAD. Copy-and-paste the commit hash.
 2. Run git checkout master
 3. Run git branch tmp <commit-hash>. This will save your changes in a new branch called tmp.
-4.If you would like to incorporate the changes you made into master, run git merge tmp from the master branch. You should be on the master branch after running git checkout master.
+4. If you would like to incorporate the changes you made into master, run git merge tmp from the master branch. You should be on the master branch after running git checkout master.
