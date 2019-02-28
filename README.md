@@ -102,3 +102,7 @@
     + command: git stash clear
 ## Rebase and merge
   - Link reference: https://github.com/AsianTechInc/AST-ruby-code-review/issues/9
+  
+## Show list 'Stash' was clear:
+  - cmd: git fsck --unreachable | grep commit | cut -d ' ' -f3 | xargs git log --merges --no-walk --grep=WIP
+  - Undo Stash: git checkout <version-commit>
