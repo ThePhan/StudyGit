@@ -105,4 +105,4 @@
   
 ## Show list 'Stash' was clear:
   - cmd: git fsck --unreachable | grep commit | cut -d ' ' -f3 | xargs git log --merges --no-walk --grep=WIP
-  - Undo Stash: git checkout <version-commit>
+  - Undo Stash: git checkout '<version-commit>'
