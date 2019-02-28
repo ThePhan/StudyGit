@@ -55,7 +55,7 @@ When using git reset --hard HEAD~1 you will lose all uncommited changes in addit
 
 Tread carefully with this one. If you accidentally remove uncommited changes which were never tracked by git (speak: committed or at least added to the index), you have no way of getting them back using git.
 
-####Bonus
+#Bonus
 ### keep
 - git reset --keep HEAD~1 is an interesting and useful one. It only resets the files which are different between the current HEAD and the given commit. It aborts the reset if anyone of these files has uncommited changes. It's basically acts as a safer version of hard.
 
@@ -69,19 +69,6 @@ When doing git reset to remove a commit the commit isn't really lost, there just
 ## already push
     + command: git revert HEAD~1..HEAD
 =======
-# GIT COMMIT
-## already edited code but not add
-  - command
-      + git clean -df
-      + git checkout -- .
-## already add but not commit
-  - command
-      + git reset HEAD
-      + git clean -df
-## already commit but not push
-      + command: git reset HEAD~1 --hard
-## already push
-      + command: git revert HEAD~1..HEAD
 
 ## Reset commit: delete all commit fail
   - Link reference: ...
